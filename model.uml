@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ZyKHQAMrEeOLZp3gnRm9Gw" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_gFbcIAMrEeOLZp3gnRm9Gw" name="Main"/>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ZyKHQAMrEeOLZp3gnRm9Gw" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_Q8v64AMtEeOLZp3gnRm9Gw" name="net.dreamcode.carsim.core">
+    <packagedElement xmi:type="uml:Class" xmi:id="_gFbcIAMrEeOLZp3gnRm9Gw" name="CarSim">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BBMq4AMyEeOLZp3gnRm9Gw" name="cars" visibility="private">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B9y2AAMyEeOLZp3gnRm9Gw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B9-cMAMyEeOLZp3gnRm9Gw" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_B-mHQAMyEeOLZp3gnRm9Gw" name="">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rt-k4AMxEeOLZp3gnRm9Gw" name="UI"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Bqus4AMuEeOLZp3gnRm9Gw" name="net.dreamcode.carsim.modules">
+    <packagedElement xmi:type="uml:Class" xmi:id="_dwp1wAMuEeOLZp3gnRm9Gw" name="TrafficLight"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hpK_cAMuEeOLZp3gnRm9Gw" name="Car"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_iHl5cAMxEeOLZp3gnRm9Gw" name="net.dreamcode.carsim.util">
+    <packagedElement xmi:type="uml:Class" xmi:id="_loz9cAMxEeOLZp3gnRm9Gw" name="CarGenerator"/>
+  </packagedElement>
 </uml:Model>
