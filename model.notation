@@ -220,4 +220,28 @@
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_ZzfkAQMrEeOLZp3gnRm9Gw"/>
   <element xmi:type="uml:Model" href="model.uml#_ZyKHQAMrEeOLZp3gnRm9Gw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_gM1hEAZfEeOzR9nZctto8w" type="4001" source="_hpV-kAMuEeOLZp3gnRm9Gw" target="_lpBY0AMxEeOLZp3gnRm9Gw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM3WQAZfEeOzR9nZctto8w" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM3WQQZfEeOzR9nZctto8w" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM3WQgZfEeOzR9nZctto8w" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM3WQwZfEeOzR9nZctto8w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM3WRAZfEeOzR9nZctto8w" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM3WRQZfEeOzR9nZctto8w" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM39UAZfEeOzR9nZctto8w" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM39UQZfEeOzR9nZctto8w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM39UgZfEeOzR9nZctto8w" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM39UwZfEeOzR9nZctto8w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gM39VAZfEeOzR9nZctto8w" type="6034">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gM39VQZfEeOzR9nZctto8w" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gM1hEQZfEeOzR9nZctto8w" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Association" href="model.uml#_gMGhQAZfEeOzR9nZctto8w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gM1hEgZfEeOzR9nZctto8w" points="[-33, -4, 487, 66]$[-570, -39, -50, 31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gNlH8AZfEeOzR9nZctto8w" id="(0.33,0.87248322147651)"/>
+  </edges>
 </notation:Diagram>

@@ -10,11 +10,22 @@
         </defaultValue>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_rt-k4AMxEeOLZp3gnRm9Gw" name="UI"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rt-k4AMxEeOLZp3gnRm9Gw" name="UserInterface"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Bqus4AMuEeOLZp3gnRm9Gw" name="net.dreamcode.carsim.modules">
     <packagedElement xmi:type="uml:Class" xmi:id="_dwp1wAMuEeOLZp3gnRm9Gw" name="TrafficLight"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_hpK_cAMuEeOLZp3gnRm9Gw" name="Car"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hpK_cAMuEeOLZp3gnRm9Gw" name="Car">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gL_MgAZfEeOzR9nZctto8w" name="carGenerator" type="_loz9cAMxEeOLZp3gnRm9Gw" association="_gMGhQAZfEeOzR9nZctto8w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gL_MgQZfEeOzR9nZctto8w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gL_MggZfEeOzR9nZctto8w" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gMGhQAZfEeOzR9nZctto8w" name="car_carGenerator_1" memberEnd="_gMGhQQZfEeOzR9nZctto8w _gL_MgAZfEeOzR9nZctto8w">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gMGhQQZfEeOzR9nZctto8w" name="car" type="_hpK_cAMuEeOLZp3gnRm9Gw" association="_gMGhQAZfEeOzR9nZctto8w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gMGhQgZfEeOzR9nZctto8w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gMGhQwZfEeOzR9nZctto8w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_iHl5cAMxEeOLZp3gnRm9Gw" name="net.dreamcode.carsim.util">
     <packagedElement xmi:type="uml:Class" xmi:id="_loz9cAMxEeOLZp3gnRm9Gw" name="CarGenerator"/>
